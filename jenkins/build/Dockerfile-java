@@ -1,0 +1,8 @@
+#This is the base image
+FROM openjdk:8-jre-alpine 
+
+#copy *.jar file to the container folder /app/app.jar
+COPY *.jar /app/app.jar
+
+# To test jar file
+CMD java -jar /app/app.jar

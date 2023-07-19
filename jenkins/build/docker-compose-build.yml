@@ -1,0 +1,7 @@
+version: '3'
+services:
+  app:
+    image: "maven:$BUILD_TAG"
+    build:
+      context: .                      # context is the file location in current directory
+      dockerfile: Dockerfile-java     # dockerfile we mention because file name is different
