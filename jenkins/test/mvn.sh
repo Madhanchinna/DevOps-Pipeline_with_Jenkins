@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "************************************"
-echo "********Maven test**********"
+echo "*********Maven test**********"
 echo "************************************"
 
 WORKSPACE=/home/jenkins/jenkins-data/jenkins_home/workspace/pipeline-docker-maven
