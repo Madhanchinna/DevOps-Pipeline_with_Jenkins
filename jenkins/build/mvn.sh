@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "************************************"
-echo "****Begin installation**********"
+echo "********Begin installation**********"
 echo "************************************"
 
 WORKSPACE=/home/jenkins/jenkins-data/jenkins_home/workspace/pipeline-docker-maven
